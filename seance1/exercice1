@@ -1,0 +1,11 @@
+# ecrire le code qui permet de saisir deux entiers , calculer leur somme , afficher le resultat 
+# exemple : entrer nombre 1:3
+# entrer nombre 2:4
+# resultat comme exemple
+# 3+4=7
+
+nombre1 = input("Entrer nombre 1 : ")
+nombre2 = input("Entrer nombre 2 : ")
+somme=int(nombre1+nombre2)
+print(nombre1,"+",nombre2,"=",somme)
+
